@@ -1,11 +1,11 @@
 {
-  "name": "nano-rpc-api",
-  "version": "2.0.2",
+  "name": "@nanobox/openapi-nano-spec",
+  "version": "3.0.0",
   "dependencies": {
     "@openapitools/openapi-generator-cli": "^2.1.23",
     "swagger-repo": "^2.0.0-rc.15"
   },
-  "private": true,
+  "private": false,
   "scripts": {
     "start": "swagger-repo serve",
     "build": "swagger-repo build -o web_deploy",
