@@ -1676,9 +1676,9 @@ components:
       type: object
       properties:
         blocks:
-          type: array
-          items:
-            $ref: '#/components/schemas/BlockHash'
+          type: object
+          additionalProperties:
+            $ref: '#/components/schemas/PendingBlock'
     ProcessResponse:
       type: object
       properties:
