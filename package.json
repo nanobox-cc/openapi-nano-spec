@@ -9,13 +9,7 @@
     "start": "swagger-repo serve",
     "build": "swagger-repo build -o web_deploy",
     "test": "swagger-repo validate",
-    "gh-pages": "swagger-repo gh-pages",
-    "gen-typescript": "openapi-generator-cli generate -g typescript-node -i ./spec/openapi.yaml -o ./clients/typescript -c config-typescript.json",
-    "gen-java": "openapi-generator-cli generate -g java -i ./spec/openapi.yaml -o ./clients/java -c config-java.json",
-    "set-version": "yarn dot-json config-typescript.json npmVersion $npm_package_version",
-    "preversion": "yarn test",
-    "postversion": "yarn set-version && yarn gen-typescript && git commit -am \"$npm_package_version\" && git tag -a v$npm_package_version -m \"v$npm_package_version\"",
-    "bump": "yarn version --no-git-tag-version"
+    "gh-pages": "swagger-repo gh-pages"
   },
   "devDependencies": {
     "dot-json": "^1.2.1"
