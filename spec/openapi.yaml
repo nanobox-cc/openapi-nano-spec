@@ -1770,7 +1770,6 @@ components:
       enum:
         - send
         - receive
-        - open
         - change
         - epoch
     PendingBlock:
@@ -1878,6 +1877,16 @@ components:
           $ref: '#/components/schemas/BlockHash'
     BlockDataJson:
       type: object
+      required:
+        - type
+        - account
+        - previous
+        - representative
+        - balance
+        - link
+        - link_as_account
+        - signature
+        - work
       properties:
         "type":
           type: string
@@ -1899,6 +1908,8 @@ components:
           $ref: '#/components/schemas/Signature'
         work:
           $ref: '#/components/schemas/Work'
+        subtype:
+          $ref: '#/components/schemas/SubType'
     Signature:
       type: string
       example: "82D41BC16F313E4B2243D14DFFA2FB04679C540C2095FEE7EAE0F2F26880AD56DD48D87A7CC5DD760C5B2D76EE2C205506AA557BF00B60D8DEE312EC7343A501"
