@@ -1786,7 +1786,7 @@ components:
       type: string
       example: "3068BB1CA04525BB0E416C485FE6A67FD52540227D267CC8B6E8DA958A7FA039"
     Raw:
-      type: number
+      type: string
       description: 1 raw is the smallest possible division and NANO/Nano (Mnano) is the current standard division used in most wallets, on exchanges, etc.
       example: "1000000000000000000000000000000"
     BlockCount:
