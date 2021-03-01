@@ -3,8 +3,7 @@
 
 ## Clients
 
-* [javascript/typescript](/clients/typescript-fetch) - typescript fetch client (published to NPM)
-* [java](/clients/java) - java client (unpublished)
+* [javascript / typescript](https://github.com/nanobox-cc/nano-rpc-typescript) - Javascript/Typescript client for node and browser.
 
 ## Links
 
