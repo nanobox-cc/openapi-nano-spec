@@ -14,13 +14,14 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Install modules
-        run: npm --prefix clients/typescript-fetch/ install
+        run: yarn
 
       - name: Build
-        run: npm --prefix clients/typescript-fetch/ run build
+        run: yarn test
 
-      - name: Upload Release Asset
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./clients/typescript-fetch/package.json
+      - name: Docs
+        run: yarn gh-pages
+
+      - run: yarn publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
