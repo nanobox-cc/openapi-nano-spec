@@ -2,7 +2,6 @@
   "name": "@nanobox/openapi-nano-spec",
   "version": "3.0.4",
   "dependencies": {
-    "@openapitools/openapi-generator-cli": "^2.1.23",
     "swagger-repo": "^2.0.0-rc.15"
   },
   "scripts": {
@@ -10,8 +9,5 @@
     "build": "swagger-repo build -o web_deploy",
     "test": "swagger-repo validate",
     "gh-pages": "swagger-repo gh-pages"
-  },
-  "devDependencies": {
-    "dot-json": "^1.2.1"
   }
 }
