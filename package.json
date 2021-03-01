@@ -1,6 +1,6 @@
 {
   "name": "@nanobox/openapi-nano-spec",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "dependencies": {
     "swagger-repo": "^2.0.0-rc.15"
   },
