@@ -1269,6 +1269,12 @@ components:
             Boolean, false by default. Returns a list of pending block hashes with amount and source accounts
           allOf:
             - $ref: '#/components/schemas/Boolean'
+        threshold:
+          description: |
+            _version 8.0+_
+            Number (128 bit, decimal). Returns a list of pending block hashes with amount more or equal to threshold
+          allOf:
+            - $ref: '#/components/schemas/Raw'
     ProcessRequest:
       type: object
       required:
