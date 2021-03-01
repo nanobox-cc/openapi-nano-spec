@@ -1890,7 +1890,6 @@ components:
         - representative
         - balance
         - link
-        - link_as_account
         - signature
         - work
       properties:
