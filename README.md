@@ -7,11 +7,9 @@
 
 ## Links
 
-- [Reference Documentation (ReDoc)](https://aspic.github.io/nano-rpc-api/)
-- [SwaggerUI](https://aspic.github.io/nano-rpc-api/swagger-ui/)
-- OpenAPI Raw Files: [JSON](https://aspic.github.io/nano-rpc-api/openapi.json) [YAML](https://aspic.github.io/nano-rpc-api/openapi.yaml)
-
-**Warning:** All above links are updated only after Travis CI finishes deployment
+- [Reference Documentation (ReDoc)](https://nanobox-cc.github.io/openapi-nano-spec/)
+- [SwaggerUI](https://nanobox-cc.github.io/openapi-nano-spec/swagger-ui/)
+- OpenAPI Raw Files: [JSON](https://nanobox-cc.github.io/openapi-nano-spec/openapi.json) [YAML](https://nanobox-cc.github.io/openapi-nano-spec/openapi.yaml)
 
 ## Working on specification
 ### Install
