@@ -847,6 +847,9 @@ components:
           $ref: '#/components/schemas/BlockCount'
     AccountInfoRequest:
       type: object
+      required:
+        - action
+        - account
       properties:
         action:
           type: string
@@ -866,7 +869,7 @@ components:
             - $ref: '#/components/schemas/Boolean'
         pending:
           description: |
-            Boolean, false by default. Returns pending when set to true.
+            Boolean, false by default. Returns pending RAW when set to true.
           allOf:
             - $ref: '#/components/schemas/Boolean'
     AccountKeyRequest:
